@@ -1,0 +1,271 @@
+body {
+    background-color:hsl(0, 0.00%, 4.70%); /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: Arial, sans-serif; /* Font style */
+    display center;
+    justify-content transition
+    align-items: center;
+    height: 100vh; /* Full height */
+    margin: 0 auto 1;
+    max-width 100px;
+}
+
+header {
+    text-align center;
+    padding: 10px;
+    background-color: #1e1e1e;
+    image-resolution: 80px;
+    image-orientation: from-image;
+    image-rendering: crisp-edges;
+    border-radius: 10%;
+    box-shadow: 0 4px 10px #6b6666; /* Shadow effect */
+    
+}
+
+.img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto;
+}
+
+.round-image {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Keep it square for round shape */
+    border-radius: 50%; /* Make it round */
+    border-color: 5 10px 20px #050505;
+    box-shadow: 5 10px 20px hsla(189, 94.50%, 49.80%, 0.80);
+    object-fit: cover; /* Ensure the image covers the area */
+}
+p1 {
+    padding-left: 5%;
+}
+h1 {
+    font-size: 3.5em;
+    margin: 0;
+    padding-left: 5%;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #007acc;
+    padding-left: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.container1 {
+    display: inline-flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: #1e1e1e; /* Card background */
+    max-width: 300px;
+    border-radius: 50px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    width: 300px; /* Fixed width for cards */
+    text-align: center; /* Center text */
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px #4404f780; /* Shadow effect */
+}
+
+.smc {
+    background: #1e1e1e; /* Card background */
+    max-width: 10px;
+    border-radius: 50px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    width: 10px; /* Fixed width for cards */
+    text-align: center; /* Center text */
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px #4404f780; /* Shadow effect */
+}
+.smc img{
+    width: 10%;
+    max-width: 10px;
+    display: block;
+    object-fit: scale-down;
+    height: 180px;
+}
+.card img {
+      width: 10%;
+      display: block;
+      object-fit: cover;
+      height: 180px;
+}
+
+.card-content {
+      padding: 16px;
+      color: hsl(0, 33%, 96%);
+}
+
+.card:hover {
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+.icon {
+    width: 100px; /* Icon size */
+    height: 50px; /* Icon size */
+    margin: 0 auto 0px; /* Center and space below */
+    background-size: cover; /* Scale background image */
+    background-repeat: no-repeat; /* No repeat */
+    display: flex;
+}
+
+.vmware {
+    background-image:"C:\Users\qa1qa1\Desktop\IMG_20230624_205541.jpg"; /* Replace with your image path */
+}
+
+.virtualbox {
+    margin: 0 auto -30px; /* Center and space below */
+    background-image: src='C:\Users\qa1qa1\Pictures\Screenshots\hei.png'; /* Replace with your image path */
+    position: sticky;
+    border-radius: 50px;
+    box-shadow: #1e1e1e;
+    width: 2980px;
+    display: block;
+    object-fit: cover;
+}
+
+.hyperv {
+    background-image: url('./assets/late.jpg'); /* Replace with your image path */
+}
+
+.qemu {
+    background-image: url('./assets/late.'); /* Replace with your image path */
+    /*<div class="icon qemu"></div>*/
+    object-fit: none;
+    width: 100px;
+    height: 60px;
+    padding-top: 50%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Space buttons evenly */
+    margin-top: 10px; /* Space above buttons */
+}
+
+button {
+    background: #007bff; /* Button color */
+    color: #ffffff; /* Button text color */
+    border: #1e1e1e; /* Remove border */
+    border-radius: 5px;
+    box-shadow: chartreuse;
+    padding: 5px 10px; /* Button padding */
+    border-radius: 10px; /* Rounded button */
+    cursor: pointer; /* Pointer on hover */
+}
+
+.button1 {
+    background-image: url('./assets/Cold.png') #007bff; /* Button color */
+    color: #ffffff; /* Button text color */
+    border: navajowhite; /* Remove border */
+    padding: 5px 10px; /* Button padding */
+    border-radius: 5px; /* Rounded button */
+    box-sizing: content-box;
+    cursor: pointer; /* Pointer on hover */
+}
+
+button:hover {
+    background: #0056b3; /* Darker color on hover */
+}
+
+
+.follow-us {
+    text-align: center;
+    margin: 50px auto;
+}
+.follow-us h4 {
+    margin-bottom: 20px;
+}
+.follow-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+.follow-us li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.follow-us a {
+    color: blue; /* Customize the link color */
+    text-decoration: none;
+}
+.follow-us a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+
+
+
+/*contact me typeshit*/
+
+.text-input {
+    width: 50%; /* Full width for input fields */
+    padding: 10px; /* Padding inside input fields */
+    margin: 10px 10; /* Margin between fields */
+    border: 1px solid #555; /* Border for input fields */
+    border-radius: 5px; /* Rounded corners for input fields */
+    background-color: #222; /* Dark background for input fields */
+    color: hsl(0, 1%, 49%); /* White text */
+}
+.text-input:focus {
+    border-color: hsl(0, 0%, 4%); /* Change border color on focus */
+    outline: hwb(0 9% 15%); /* Remove default outline */
+    
+}
+.send-button {
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding inside the button */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size for button */
+}
+.send-button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/*.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
