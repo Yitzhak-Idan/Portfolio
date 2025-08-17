@@ -15,11 +15,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.getElementById('sendEmailButton').onclick = function() {
             Email.send({
-                Host: "smtp.gmail.com",
-                Username: "idanprimetime@gmail.com",
-                Password: "primetime301204",
-                To: "idanmatonda@gmail.com",
-                From: "idanprimetime@gmail.com",
+                Host: smtp.gmail.com,
+                Username: idanprimetime@gmail.com,
+                Password: "123abc",
+                To: idanmatonda@gmail.com,
+                From: idanprimetime@gmail.com,
                 Subject: "This is the subject",
                 Body: "This is the body of the email",
             })
@@ -30,6 +30,7 @@ document.getElementById('sendEmailButton').onclick = function() {
                 alert("There was an error sending the email: " + error);
             });
 };
+
 
 
 
